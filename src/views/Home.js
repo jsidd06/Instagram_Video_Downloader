@@ -2,6 +2,15 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 function Home() {
+  const user = {
+    name: 'akshay+besty',
+    email: 'akshay@besty',
+    password: 'akshaylovebesty',
+    password_confirmation: 'akshaylovebesty',
+  };
+  Object.entries(user).map((y) => {
+    console.log(y[0], y[1]);
+  })
   const [downloadLink, setDownloadLink] = useState('');
   const [downloadLink2, setDownloadLink2] = useState("");
  var options = {
