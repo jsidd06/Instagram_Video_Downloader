@@ -7,7 +7,7 @@ function Home() {
     // var options = {
     //   method: "GET",
     //   url: `https://murbil-instagram-media-download-v1.p.rapidapi.com/GetVideoLink`,
-    //   params: { Url: downloadLink2 },
+    //   params: { Url: downloadLink2 }
     //   headers: {
     //     "x-rapidapi-host": "murbil-instagram-media-download-v1.p.rapidapi.com",
     //     "x-rapidapi-key": "fe414cc81emshafef0d1b1c855cbp17df7djsn4a21f768c675",
